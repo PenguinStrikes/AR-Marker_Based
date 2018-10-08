@@ -26,16 +26,26 @@ conda env remove -n aug
 #### Analysis
 
 Our analysis starts by demonstrating the image transformations required to apply a bounding box to squares found within an image. These stages are shown in the following image:
+<p align="center">
 <img src="report/fig/test_image.png" width="650">
+</p>
 
 This technique is further applied to a webcam video, with an example output shown below:
+<p align="center">
 <img src="report/fig/test_video.gif" width="400">
+</p>
 
 Having now provided some of the basics the analysis moves into a technique called Marker Based Augmented Reality (Image Recognition) where a visual marker in the real world is used to overlay the additional data. We show an example of this feature matching below:
+<p align="center">
 <img src="report/fig/test_marker.png" width="650">
+</p>
 
 Again we can apply this technique to a webcam video in order to render a bounding box in real time:
+<p align="center">
 <img src="report/fig/test_video_marker.gif" width="400">
+</p>
 
 The final stage of our analysis is to render a 3D object onto our marker based bounding box and create our Augmented Reality view. The output of this is shown below:
+<p align="center">
 <img src="report/fig/test_video_augmented.gif" width="400">
+</p>
