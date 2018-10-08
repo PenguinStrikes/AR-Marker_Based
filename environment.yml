@@ -1,0 +1,24 @@
+channels:
+  - menpo
+  - conda-forge
+
+dependencies:
+ - python=3.5.2
+ - numpy
+ - matplotlib
+ - jupyter
+ - scipy
+ - seaborn
+ - requests
+ - scikit-learn
+ - pandas
+ - imageio
+ - libpng
+ - menpo::opencv3
+ - menpo::dlib
+
+ - pip:
+   - Pillow
+   - cmake
+   - opencv-python
+   - imutils
